@@ -1,0 +1,26 @@
+.card {
+  background-color: var(--white);
+  width: 24rem;
+  border-radius: 20px;
+
+  &__image img {
+    border-radius: 10px;
+    width: 21rem;
+    height: 12.5rem;
+  }
+
+  &__tag {
+    background-color: var(--yellow);
+    font-weight: bold;
+    border-radius: 4px;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  &__user p {
+    margin-left: 1rem;
+  }
+}
