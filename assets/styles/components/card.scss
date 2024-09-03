@@ -6,6 +6,7 @@
   padding: 1.5rem;
   box-shadow: 8px 8px 0 0 hsl(0, 0, 0);
   border: 1px solid #000000;
+  user-select: none;
 
   &__content {
     display: flex;
@@ -33,16 +34,21 @@
     width: fit-content;
     font-size: 0.75rem;
     line-height: 1.5;
+    user-select: text;
   }
 
   &__date {
     font-size: 0.75rem;
     color: var(--gray-950);
+    user-select: text;
+    line-height: 1.5;
   }
 
   &__title {
     color: var(--gray-950);
     font-size: 1.25rem;
+    user-select: text;
+    line-height: 1.5;
   }
 
   &__title:hover {
@@ -53,6 +59,8 @@
   &__description {
     color: var(--gray-500);
     font-size: 0.875rem;
+    user-select: text;
+    line-height: 1.5;
   }
 
   &__user {
@@ -60,10 +68,13 @@
     display: flex;
     align-items: center;
     font-weight: bold;
+    line-height: 1.5;
   }
   &__user p {
     font-size: 0.875rem;
     margin-left: 0.75rem;
+    user-select: text;
+    line-height: 1.5;
   }
   &__user img {
     width: 2rem;
