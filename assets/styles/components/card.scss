@@ -18,8 +18,8 @@
 
   &__image img {
     border-radius: 0.625rem;
-    width: 21rem;
-    height: 12.5rem;
+    max-width: 100%;
+    height: auto;
   }
 
   &__tag {
@@ -30,14 +30,28 @@
     border-radius: 0.25rem;
     padding: 0.25rem 0.75rem;
     width: fit-content;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  &__date {
+    font-size: 0.875rem;
+    color: var(--gray-950);
   }
 
   &__title {
     color: var(--gray-950);
+    font-size: 1.5rem;
+  }
+
+  &__title:hover {
+    cursor: pointer;
+    color: var(--yellow);
   }
 
   &__description {
     color: var(--gray-500);
+    font-size: 1rem;
   }
 
   &__user {
@@ -47,6 +61,7 @@
     font-weight: bold;
   }
   &__user p {
+    font-size: 0.875rem;
     margin-left: 0.75rem;
   }
   &__user img {
