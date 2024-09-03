@@ -1,0 +1,31 @@
+@mixin text-preset-1 {
+  font-family: 'Figtree', system-ui;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+@mixin text-preset-2 {
+  font-family: 'Figtree', system-ui;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+@mixin text-preset-3 {
+  font-family: 'Figtree', system-ui;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+@mixin text-preset-3-bold {
+  font-family: 'Figtree', system-ui;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 800;
+}
